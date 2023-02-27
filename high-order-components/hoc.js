@@ -2,7 +2,7 @@
 // sharing complex behaviour between multiple components (much like with container component)
 // add extra functionality
 import { useEffect } from "react";
-import { UserInfo } from "../react-hooks/customHooks/useCurrentUser.js";
+import { UserInfo } from "../react-hooks/useCurrentUser.js";
 
 export const printProps = (Component) => {
   return (props) => {
